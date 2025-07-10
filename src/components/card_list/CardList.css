@@ -1,0 +1,19 @@
+.title__cards {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.title__cards h2 {
+    margin-bottom: 8px;
+}
+
+.card_list {
+    display: flex;
+    gap: 10px;
+    overflow-x: scroll;
+    mask-image: linear-gradient(to right, transparent,black 20px,black calc(100% - 20px),transparent);
+}
+
+.card_list::-webkit-scrollbar {
+    display: none;
+}
