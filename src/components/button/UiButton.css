@@ -11,3 +11,32 @@
     margin-top: 20px;
     cursor: pointer;
 }
+
+.button__yellow {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    padding: 16px;
+    background: #b5e052;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.button__red {
+    width: 40%;
+    border: 0;
+    outline: 0;
+    padding: 16px;
+    background: #ae0a15;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+    cursor: pointer;
+    padding-bottom: 15px;
+}

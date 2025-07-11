@@ -1,0 +1,16 @@
+.card__grid {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.card__grid h2 {
+  margin-bottom: 8px;
+}
+
+.card__grid__list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+  justify-items: center;
+  gap: 20px;
+}

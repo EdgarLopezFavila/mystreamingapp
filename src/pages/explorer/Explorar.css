@@ -1,0 +1,30 @@
+.explorer {
+  padding: 30px 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.explorer img {
+  cursor: pointer
+}
+
+.explorer__header {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center; 
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.explorer h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #fff; 
+  white-space: nowrap;
+}
+
+.explorer .search__bar {
+  flex: 1;
+  min-width: 300px;
+}

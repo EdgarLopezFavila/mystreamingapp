@@ -36,7 +36,7 @@ const Played = () => {
 
   return (
     <div className="played">
-      <img src={caret_left_icon} alt="" onClick={() => {nav(-2)}}/>
+      <img src={caret_left_icon} alt="" onClick={() => {nav('/')}}/>
       <iframe width={'90%'} height={'90%'} src={`${BASE_URL_VIDEO}${movieData.key}`} frameborder="0" title='Trailer' allowFullScreen></iframe>
       <div className="played__info">
         <p>{movieData.published_at.slice(0,10)}</p>

@@ -36,16 +36,12 @@ export const movieApi = {
   getVideoById: async (id, language = 'en-US') => {
     return fetchApiGet(`/movie/${id}/videos?language=${language}`)
   },
-  /**getPopular: async (language = 'es-US', page = 1) => {
-    return fetchApiGet(`/movie/popular?language=${language}&page=${page}`);
   
-  /**getMovieDetails: async (movieId, language = 'es-US') => {
-    return fetchApi(`/movie/${movieId}?language=${language}`);
+  getMovieDetails: async (movieId, language = 'en-US') => {
+    return fetchApiGet(`/movie/${movieId}?language=${language}`);
   },
   
-  searchMovies: async (query, language = 'es-US', page = 1) => {
-    return fetchApi(`/search/movie?query=${query}&language=${language}&page=${page}`);
+  searchMovies: async (query, language = 'en-US', page = 1) => {
+    return fetchApiGet(`/search/movie?query=${query}&language=${language}&page=${page}`);
   }
-  
-  // Puedes añadir más endpoints aquí según necesites **/
 };

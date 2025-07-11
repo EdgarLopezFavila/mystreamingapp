@@ -1,0 +1,46 @@
+.detail {
+    justify-content: center;
+    align-items: center;
+}
+
+.detail__img {
+    width: 50%;
+    position: relative;
+    max-height: 80vh;
+    overflow: hidden;
+    display: block;
+    max-width: 100%;
+    max-height: 100vh;
+    object-fit: contain;
+    margin: 0 auto;
+}
+
+.detail__back {
+    position: absolute;
+    cursor: pointer;
+    width: 60px;
+    top: 20px;
+    left: 20px;
+}
+
+.detal__buy {
+  display: flex;
+  flex-direction: column; /* Elementos en columna */
+  gap: 15px; /* Espacio entre elementos */
+}
+
+.detal__buy--text {
+  margin: 0; /* Elimina márgenes por defecto de <p> */
+  text-align: left;
+  width: 65%;
+  padding-left: 4%;
+}
+
+.detal__buy--buttons {
+  display: flex;
+  gap: 15px;
+  align-self: flex-end; /* Alinea solo este contenedor a la derecha */
+  margin-top: 20px;
+  padding-right: 20%;
+  padding-bottom: 20px;
+}
